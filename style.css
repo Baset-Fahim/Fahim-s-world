@@ -1,0 +1,30 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.author{
+    color: orange;
+}
+section{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.lorem{
+    text-align: justify;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 80%;
+}
+.anchor-tag1{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: orange
+}
