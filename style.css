@@ -3,9 +3,13 @@ body{
     margin: 0;
     background-image: url(images/top-banner.png);
     background-repeat:no-repeat;
+    background-color: lightgoldenrodyellow;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .author{
     color: orange;
@@ -13,8 +17,8 @@ h1{
 .section-format{
     display: flex;    
     padding-bottom: 200px;
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center;
 }
 .lorem{
     text-align: justify;
@@ -40,4 +44,29 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
-
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    justify-content: center;
+    align-items: center;
+}
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 50px #635985;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 350px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+#allow-merge-commits{
+    border-left: 7px solid tomato;
+}
+#allow-squash-merging{
+    border-left: 8px solid blue;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+}
